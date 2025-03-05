@@ -1,0 +1,66 @@
+TEST_METHOD(UT06TransferFrom)
+		{
+			IntegerList s1;
+			IntegerList s2;
+			Text x1, x2;
+			Integer k;
+
+			Logger::WriteMessage(L"UT06TransferFrom: s1.transferFrom(s2);");
+			Logger::WriteMessage(L"\tincoming: s1 = (<>,<>) and s2 = (<20,15>,<10>) ");
+			Logger::WriteMessage(L"\toutgoing:  s1 = (<20,15>,<10>) and s2 = (<>,<>)");
+
+			// Test set up
+			k = 10;
+			s2.addRightFront(k);
+			k = 15;
+			s2.addRightFront(k);
+			k = 20;
+			s2.addRightFront(k);
+			s2.advance();
+			s2.advance();
+
+			// Execute operation: transferFrom
+			s1.transferFrom(s2);
+
+			// Validate ensures: self = #source
+			toText(s1, x1);
+			Assert::AreEqual(L"[<15,20>,<10>]", x1, true, L"s1's internal rep = [<15,20>,<10>]");
+
+			//Validate parameter mode clears: clears source
+			toText(s2, x2);
+			Assert::AreEqual(L"[<>,<>]", x2, true, L"s2's internal rep = [<>,<>]");
+		} // UT06TransferFrom
+
+
+TEST_METHOD(UT08Assignment)
+		{
+			IntegerList s1;
+			IntegerList s2;
+			Text x1;
+			Integer k;
+
+			Logger::WriteMessage(L"UT08Assignment: s1 = s2;");
+			Logger::WriteMessage(L"\tincoming: s1 = (<>,<>) and s2 = (<20,15>,<10>) ");
+			Logger::WriteMessage(L"\toutgoing: s1 = (<>,<10>) and s2 = (<20,15>,<10>)");
+
+			// Test set up
+			k = 10;
+			s2.addRightFront(k);
+			k = 15;
+			s2.addRightFront(k);
+			k = 20;
+			s2.addRightFront(k);
+			s2.advance();
+			s2.advance();
+
+			// Execute operation:  operator =
+			s1 = s2;
+
+			// Validate ensures self = rhs
+			toText(s1, x1);
+			Assert::AreEqual(L"[<15,20>,<10>]", x1, true, L"s1's internal rep = [<15,20>,<10>]");
+			// Validate restores parameter mode: restores rhs
+			toText(s2, x1);
+			Assert::AreEqual(L"[<15,20>,<10>]", x1, true, L"s2's internal rep = [<15,20>,<10>]");
+		} // UT08Assignment
+

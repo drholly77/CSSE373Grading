@@ -1,0 +1,23 @@
+z - adds to and checks length of s1
+1
+e
+1
+0
+cero
+z
+1
+e
+1
+1
+uno
+z
+1
+e
+1
+2
+dos
+z
+1
+p
+1
+q

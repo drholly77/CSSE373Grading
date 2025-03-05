@@ -1,0 +1,9 @@
+01-L3-CheckCopy.bat - copies test script files to student's repo folder
+02-L3-BuildAll.bat - builds each student's Debug and Release project, records failures in "buildFailures.txt"
+03-L3-CheckForVSTest.bat - this just checks to make sure VSTest is present on grader's machine
+04-L3-RunTests.bat - this runs each student's Debug and Release unit tests
+05-L3-CheckAssignment.bat - this search each student's List2.hpp looking for overuse of assignment operator
+IntegerList.h - copied to student's repo folder by 01-L3-CheckCopy.bat
+L3D.cpp - contains grader's Debug tests, copied to student's repo folder by 01-L3-CheckCopy.bat
+L3R.cpp - contains grader's Release tests, copied to student's repo folder by 01-L3-CheckCopy.bat
+

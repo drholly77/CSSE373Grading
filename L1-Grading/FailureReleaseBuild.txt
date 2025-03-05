@@ -1,0 +1,9 @@
+csse373devenv202430-lesereli000\L1 project failed to build 
+csse373devenv202430-natasa-zupanski\L1 project failed to build 
+csse373devenv202430-rhit-brunkocl\L1 project failed to build 
+csse373devenv202430-rhit-hallamcs\L1 project failed to build 
+csse373devenv202430-rhit-huy8\L1 project failed to build 
+csse373devenv202430-rhit-kirka\L1 project failed to build 
+csse373devenv202430-rhit-lowej2\L1 project failed to build 
+csse373devenv202430-rhit-zhangn2\L1 project failed to build 
+csse373devenv202430-satkosb\L1 project failed to build 

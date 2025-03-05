@@ -1,0 +1,23 @@
+e - adds to s3
+3
+0
+zero
+e
+3
+1
+two
+e
+3
+1
+one
+e
+3
+3
+four
+e
+3
+3
+three
+p
+3
+q

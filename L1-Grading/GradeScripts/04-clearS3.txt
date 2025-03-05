@@ -1,0 +1,15 @@
+e - adds to and clears s3
+3
+0
+zero
+e
+3
+1
+two
+p
+3
+c
+3
+p
+3
+q

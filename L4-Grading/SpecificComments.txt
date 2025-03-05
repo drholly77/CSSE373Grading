@@ -1,0 +1,54 @@
+
+failed 1 grader's test script
+moveToFinish() still needs a loop, your implementation had no loop
+
+Violated the Important Restriction "Write elegant client code"
+transferFrom - failed to leverage the power of PreemptableQueue
+transferFrom can be implemented with 2 lines of code and no iteration
+Your implementation has > 5 lines of code including 2 'for' loops
+
+Violated the Important Restriction "Write elegant client code"
+clear - failed to leverage the power of PreemptableQueue
+clear can be implemented with 2 lines of code and no iteration
+Your implementation has a 'for' loop
+
+Violated the Important Restriction "Write elegant client code"
+advance - failed to leverage the power of PreemptableQueue
+advance can be implemented with 3 lines of code and no iteration
+Your implementation utilizes multiple 'for' loops
+
+Violated the Important Restriction "Write elegant client code"
+advance - failed to leverage the power of PreemptableQueue
+advance can be implemented with 3 lines of code and no iteration
+Your implementation utilizes looping
+
+Violated the Important Restriction "Write elegant client code"
+replaceRightFront - failed to leverage the power of PreemptableQueue
+replaceRightFront can be implemented with 1 line of code and no iteration
+Your implementation uses a 'for' loop
+
+Violated the Important Restriction "About Making Copies"
+rightFront - failed "Do not call operator = with variables of type T"
+rightFront can be implemented w/o making copies and using only 1 line of code
+
+Violated the Important Restriction "Write elegant client code"
+rightFront - failed to leverage the power of PreemptableQueue
+rightFront can be implemented with 1 line of code and no iteration
+Your implementation utilizes looping
+
+Failed multiple L4D test scripts:
+  Tests in group: 35
+Outcomes
+   26 Passed
+   9 Failed
+
+<p dir="ltr" style="text-align:left;">
+    <strong><a href="https://moodle.rose-hulman.edu/mod/assign/view.php?id=3726484" target="_blank">Click here</a></strong>
+    to see specific grading comments
+</p>
+
+<p dir="ltr" style="text-align:left;">
+    <strong><a href="https://moodle.rose-hulman.edu/mod/assign/view.php?id=3726484" target="_blank">Click here</a></strong>
+    to see specific grading comments
+    <br>And see uploaded test run output files
+</p>

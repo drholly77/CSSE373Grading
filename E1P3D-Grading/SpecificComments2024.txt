@@ -1,0 +1,205 @@
+---------- CSSE373DEVENV202430-RHIT-BRISCOMA\README.MD
+1) Your name: Matt Briscoe
+
+Failed test cases: see attached E1P3D-Output.txt and E1P3D.cpp (for actual test cases)
+defect(s) in: List6<T>::operator =
+
+Important Restrictions violation: failed to "Write elegant client code" in swapRights
+No loops required. Your loop "reinvent" functionality. Use transferFrom instead of that loop
+
+=======================================
+---------- CSSE373DEVENV202430-RHIT-HALLAMCS\README.MD
+1) Your name: Connor Hallam
+
+Failed test cases: see attached E1P3D-Output.txt and E1P3D.cpp (for actual test cases)
+defect(s) in: moveToStart, moveToFinish, advance
+These operations used 'enqueue' and should have used 'inject'
+
+Important Restrictions violation: failed to "Obey the correspondence"
+
+
+=======================================
+---------- CSSE373DEVENV202430-RHIT-SILKAIJR\README.MD
+1) Your name: Jack Silkaitis
+
+Failed test cases: see attached E1P3D-Output.txt and E1P3D.cpp (for actual test cases)
+defect(s) in: clear
+Your implementation has two problems, 1 is it violates "Important Restriction" (see below), 
+and the second is that it is incorrect. The loop counter 'i' is incrementing 
+and the call to length() is producing smaller and smaller values.
+I often call this a train wreck be cause counter and length() will "crash"
+in the middle, and so loop will execute about half as many times as is needed.
+
+
+Important Restrictions violation: failed to "Write elegant client code" in clear
+No loops required. Your loop "reinvent" functionality. 
+Just do a call through to PreemptableQueue's clear. 
+You'll need 2 calls, one for qR and one for QL
+
+=======================================
+hsteward
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These operations have nested for loops when only 1 loop is necessary if 'inject' is used
+
+In (3) advance, this can be written with just a call to 'dequeue' followed by a call to 'inject'
+In (4) addRightFront, takes one line of code, call 'inject'
+In (5) replaceRightFront, takes on line of code, just call PreemptableQueue's 'replaceFront'
+
+
+=======================================
+bveal52
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) addRightFront, takes one line of code, call 'inject'
+
+=======================================
+cm090
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) swapRights, use transferFrom to swap s.qR and qR. 3 lines of code. No loops.
+
+=======================================
+ctf05
+Important Restrictions violation: failed to "About Making Copies" 
+In (1) replaceRightFront, assignment was used on a variable of type T
+just call PreemptableQueue's 'replaceFront', one line of code, no assignments
+=======================================
+duvallar
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These operations have 3 loops back-to-back when only a single loop is necessary when 'inject' is used
+
+In (3) advance, this can be written with zero loops, with just a call to 'dequeue' followed by a call to 'inject'
+In (4) addRightFront, takes one line of code, call 'inject'
+=======================================
+kezdyam
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These operations call your reverseAndTransfer which has a 2 nested loops followed by a 3rd loop,
+but these operations can be done with only a single loop is necessary when 'inject' is used
+For example, think of moveToFinish as a loop executing the same code as you have in advance
+but not calling advance to do it (that would be cross calling)
+
+=======================================
+lesereli000
+Important Restrictions violation: failed to "About Making Copies" 
+In (1) swapRightsassignment was used on a Queue variable
+just use transferFrom to swap s.qR and qR. 3 lines of code. No loops.
+
+=======================================
+natasa-zupanski
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These 2 operations have 2 loops back-to-back when only 1 loop is necessary if 'inject' is used
+=======================================
+adlerbn
+Important Restrictions violation: failed to "About Making Copies" 
+In (1) swapRight uses assignment was used on a Queue variables
+Just use transferFrom to swap s.qR and qR. 3 lines of code. No assignments.
+=======================================
+brunkocl
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These operations have 2 loops back-to-back when only a single loop is necessary when 'inject' is used
+
+In (3) advance, this can be written with zero loops, with just a call to 'dequeue' followed by a call to 'inject'
+In (4) addRightFront, takes one line of code, call 'inject'
+=======================================
+doolitge
+Important Restrictions violation: failed to "About Making Copies" 
+In (1) swapRight uses assignment, was used on Queue variables
+Just use transferFrom to swap s.qR and qR. 3 lines of code. No assignments.
+=======================================
+gualldj
+Important Restrictions violation: failed to "About Making Copies" 
+In (1) swapRight uses assignment, was used on Queue variables
+Just use transferFrom to swap s.qR and qR. 3 lines of code. No assignments.
+
+=======================================
+gizaw1
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These operations have 2 nested for loops followed by a 3rd for loop when only a single loop is necessary when 'inject' is used
+
+In (3) advance, this can be written with zero loops, with just a call to 'dequeue' followed by a call to 'inject'
+In (4) addRightFront, takes one line of code, call 'inject'
+
+=======================================
+heffnenw
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart 
+This operation has back-to-back loops when only a single loop is necessary when 'inject' is used
+
+In (2) advance, this can be written with zero loops, with just a call to 'dequeue' followed by a call to 'inject'
+In (3) replaceRightFront, assignment, was used a variable of type T.
+Only takes one line of code, just call PreemptableQueue's 'replaceFront'
+=======================================
+lydencj
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These operations have 2 loops back-to-back when only a single loop is necessary when 'inject' is used
+
+In (3) advance, this can be written with zero loops, with just a call to 'dequeue' followed by a call to 'inject'
+In (4) addRightFront, takes one line of code, call 'inject'
+In (5) replaceRightFront, takes on line of code, just call PreemptableQueue's 'replaceFront'
+In (6) swapRight uses assignment, was used on Queue variables
+Just use transferFrom to swap s.qR and qR. 3 lines of code. No assignments.
+
+=======================================
+mcmaholc
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These operations call your helper moveToOtherSide. Great idea except you need to
+reengineer moveToOtherSide so that it has a single loop and uses'inject' 
+
+In (3) advance, this can be written with zero loops, with just a call to 'dequeue' followed by a call to 'inject'
+In (4) addRightFront, takes one line of code, call 'inject'
+
+=======================================
+shulernm
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart 
+Has 2 loops back-to-back when only a single loop is necessary when 'inject' is used
+In (2) moveToFinish has a loop and calls your helper 'rev' 2 times when only a single loop is necessary when 'inject' is used
+In (3) advance, calls your helper 'rev' 2 times, however this operation can be written with zero loops, with just a call to 'dequeue' followed by a call to 'inject'
+In (4) addRightFront, takes one line of code, call 'inject'
+
+=======================================
+tekulvba
+Important Restrictions violation: failed to "Write elegant client code" 
+Failed to use PreemptableQueue's 'inject' operation
+In (1) moveToStart and (2) moveToFinish
+These operations in reality have 2 nested for loops the one in each operation and the loop
+in the helper rotateLastToFirst. Only a single loop is necessary when 'inject' is used
+Try reengineering your rotateLastToFirst to use one loop and inject, then just call it from 
+moveToStart and moveToFinish
+In (3) advance, this can be written with zero loops, with just a call to 'dequeue' followed by a call to 'inject'
+In (4) addRightFront, takes one line of code, call 'inject'. No loops required.
+
+Important Restrictions violation: failed to "About Making Copies" 
+In (5) rightFrontuses assignment on variables of type T.
+Just call PreemptableQueue's front operation
+In (6) replaceRightFront, takes on line of code, just call PreemptableQueue's 'replaceFront'. No loops required.
+=======================================
+walshst1
+Important Restrictions violation: failed to "About Making Copies" 
+In (1) swapRight uses assignment, was used on Queue variables
+Just use transferFrom to swap s.qR and qR. 3 lines of code. No assignments.
+=======================================
+xander-6085
+Important Restrictions violation: failed to "About Making Copies" 
+In (1) swapRight uses assignment, was used on Queue variables
+Just use transferFrom to swap s.qR and qR. 3 lines of code. No assignments.
+In (2) replaceRightFront uses assignment on variables of type T.
+replaceRightFront  takes on line of code, just call PreemptableQueue's 'replaceFront'

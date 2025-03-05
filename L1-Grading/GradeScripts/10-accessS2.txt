@@ -1,0 +1,21 @@
+f - adds to and accesses s2
+2
+e
+2
+0
+one
+e
+2
+0
+zero
+p
+2
+f
+2
+0
+f
+2
+1
+z
+2
+q

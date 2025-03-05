@@ -1,0 +1,24 @@
+e - does s2.append(s1)
+1
+0
+three
+e
+1
+1
+four
+e
+2
+0
+two
+e
+2
+0
+one
+a
+1
+2
+p
+1
+p
+2
+q

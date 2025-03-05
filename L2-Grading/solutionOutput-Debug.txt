@@ -1,0 +1,53 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.9.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+UT01Constructor: Sequence4();
+	outgoing: s1 = <>
+UT02Clear: s1.clear();
+	incoming: s1 = <>
+	outgoing: s1 = <>
+UT03TransferFrom: s1.transferFrom(s2);
+	incoming: s1 = <> and s2 = <>
+	outgoing: s1 = <> and s2 = <>
+UT04Assignment: s1 = s2;
+	incoming: s1 = <> and s2 = <>
+	outgoing: s1 = <> and s2 = <>
+UT05Add: s1.add(pos, k);
+	incoming: s1 = <> and pos = 0 and k = 15
+	outgoing: s1 = <15> and pos = 0 and k = 0
+UT06Remove: s1.remove(pos, k);
+	incoming: s1 = <10,20,30> and pos = 1 and k = 0
+	outgoing: s1 = <10,30> and pos = 1 and k = 20
+UT07ReplaceEntry: s1.replaceEntry(pos, k);
+	incoming: s1 = <10,20,30> and pos = 2 and k = -30
+	outgoing: s1 = <10,20,-30> and pos = 2 and k = 30
+UT08Entry: s1.entry(pos);
+	incoming: s1 = <10,20,30> and pos = 2
+	outgoing: s1 = <10,20,30> and pos = 2
+UT09Append: s2.append(s1);
+	incoming: s1 = <30,40> and s2 = <10,20>
+	outgoing: s1 = <> and s2 = <10,20,30,40>
+  Passed UT01Constructor [2 ms]
+  Passed UT02Clear [< 1 ms]
+  Passed UT03TransferFrom [< 1 ms]
+  Passed UT04Assignment [4 ms]
+  Passed UT05Add [< 1 ms]
+  Passed UT06Remove [< 1 ms]
+  Passed UT07ReplaceEntry [< 1 ms]
+  Passed UT08Entry [< 1 ms]
+  Passed UT09Append [< 1 ms]
+UT10Split: s2.split(pos, s1);
+	incoming: s1 = <-30> and pos = 1 and s2 = <10,20,30,40>
+	outgoing: s1 = <20,30,40> and pos = 1 and s2 = <10>
+UT11Length: s1.length();
+	incoming: s1 = <>
+	outgoing: s1 = <>
+  Passed UT10Split [< 1 ms]
+  Passed UT11Length [< 1 ms]
+
+Test Run Successful.
+Total tests: 11
+     Passed: 11
+ Total time: 0.4996 Seconds

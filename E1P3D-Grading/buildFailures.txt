@@ -1,0 +1,8 @@
+csse373devenv202430-GMyoung 
+   FAILED build in Debug Mode 
+csse373devenv202430-jiangy10 
+   FAILED build in Debug Mode 
+csse373devenv202430-rhit-kirka 
+   FAILED build in Debug Mode 
+csse373devenv202430-rhit-olabinmo 
+   FAILED build in Debug Mode 

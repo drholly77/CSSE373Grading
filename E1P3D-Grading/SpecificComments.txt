@@ -1,0 +1,56 @@
+
+Violated the Important Restriction "Write elegant client code"
+addRightFront - failed to leverage the power of PreemptableQueue
+addRightFront can be implemented with 1 line of code
+Your implementation has > 5 lines of code including a 'for' loop
+
+Violated the Important Restriction "Write elegant client code"
+addRightFront - failed to leverage the power of PreemptableQueue
+addRightFront can be implemented with 1 line of code
+Your implementation utilizes a 'for' loop
+
+Violated the Important Restriction "Write elegant client code"
+addRightFront & advance - failed to leverage the power of PreemptableQueue
+both can be implemented with no 'for' loops
+Your implementations each utilize a 'for' loop
+
+Violated the Important Restriction "Write elegant client code"
+moveToStart - failed to leverage the power of PreemptableQueue
+moveToStart can be implemented with 1 for loop 
+Your implementation has 2 for loops 
+
+Violated the Important Restriction "Write elegant client code"
+moveToFinish - failed to leverage the power of Queue
+moveToFinish can be implemented with 1 for loop 
+Your implementation has 3 for loops 
+
+Violated the Important Restriction "About Making Copies"
+rightFront & replaceRightFront - failed "Do not call operator = with variables of type T"
+rightFront & replaceRightFront can be implemented w/o making copies and each using only 1 line of code
+
+Violated the Important Restriction "Write elegant client code"
+swapRights - failed to leverage the power of PreemptableQueue
+swapRights can be implemented with 4 lines of code and no 'for' loops
+Your implementation has > 8 lines of code and 2 'for' loops
+
+Violated the Important Restriction "Write elegant client code"
+swapRights - failed to leverage the power of PreemptableQueue
+swapRights can be implemented with 4 lines of code and no 'for' loops
+Your implementation utilizes a 'for' loop
+
+Nice job!
+Especially by utilizing a helper operation
+
+Submission failed to Build
+Here are build messages:
+
+Operations not implemented correctly
+transferFrom and operator = 
+Through visual inspection of code, new test cases were developed
+that exposed defects
+See attached file for new test cases
+
+<p dir="ltr" style="text-align:left;">
+<a href="https://moodle.rose-hulman.edu/mod/assign/view.php?id=3726505" 
+target="_blank" rel="noreferrer noopener"><strong>Click here</strong></a> 
+to see specific grading comments</p>

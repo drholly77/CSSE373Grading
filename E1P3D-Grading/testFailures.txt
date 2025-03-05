@@ -1,0 +1,39 @@
+---------- CSSE373DEVENV202430-RHIT-BRISCOMA\README.MD
+1) Your name: Matt Briscoe
+Test Run Failed.
+  Failed UT08Assignment [124 ms]
+  Error Message:
+   Assert failed. Expected:<[<15,20>,<10>]> Actual:<[<>,<10>]> - s1's internal rep = [<15,20>,<10>]
+  Stack Trace:
+        at E1P3D::E1P3D::UT08Assignment() in C:\Users\hollings\Documents\Git-Repos\csse373\grading\sp24\csse373devenv202430-rhit-briscoma\E1P3D\E1P3D.cpp:line 280
+  Standard Output Messages:
+ UT08Assignment: s1 = s2;       incoming: s1 = (<>,<>) and s2 = (<20,15>,<10>)  outgoing: s1 = (<20,15>,<10>) and s2 = (<20,15>,<10>)
+
+  Failed UT35Assignment [< 1 ms]
+  Error Message:
+   Assert failed. Expected:<[<15,20>,<>]> Actual:<[<5>,<>]> - s1's internal rep = [<15,20>,<>]
+  Stack Trace:
+        at E1P3D::E1P3D::UT35Assignment() in C:\Users\hollings\Documents\Git-Repos\csse373\grading\sp24\csse373devenv202430-rhit-briscoma\E1P3D\E1P3D.cpp:line 317
+  Standard Output Messages:
+ UT35Assignment: s1 = s2;       incoming: s1 = (<5>,<10>) and s2 = (<20,15>,<>)         outgoing: s1 = (<20,15>,<>) and s2 = (<20,15>,<>)
+Total tests: 36
+     Passed: 34
+     Failed: 2
+
+
+---------- CSSE373DEVENV202430-RHIT-HALLAMCS\README.MD
+1) Your name: Connor Hallam
+Test Run Failed.
+Total tests: 63
+     Passed: 43
+     Failed: 20
+ Total time: 0.4821 Se
+
+---------- CSSE373DEVENV202430-RHIT-SILKAIJR\README.MD
+1) Your name: Jack Silkaitis
+Test Run Failed.
+  Failed UT04Clear [118 ms]
+Total tests: 36
+     Passed: 35
+     Failed: 1
+

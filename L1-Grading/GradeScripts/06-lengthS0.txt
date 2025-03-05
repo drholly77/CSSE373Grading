@@ -1,0 +1,23 @@
+z - adds to and checks length of s0
+2
+e
+0
+0
+Zero
+z
+2
+e
+0
+1
+One
+z
+2
+e
+0
+2
+Two
+z
+0
+p
+0
+q

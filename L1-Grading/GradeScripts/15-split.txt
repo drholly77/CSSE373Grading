@@ -1,0 +1,25 @@
+e - does s2.split(s1)
+2
+0
+one
+e
+2
+1
+two
+e
+2
+2
+three
+e
+2
+3
+four
+s
+2
+1
+1
+p
+1
+p
+2
+q

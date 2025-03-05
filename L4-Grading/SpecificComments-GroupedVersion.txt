@@ -1,0 +1,11 @@
+Violated the Important Restriction "Write elegant client code"
+
+All these operations failed to leverage the power of PreemptableQueue
+   advance, leftLength, and rightLength 
+
+1) advance can be implemented with 3 lines of code and no iteration
+Your implementation utilizes iteration
+2) leftLength can be implemented with 1 line of code and no iteration
+Your implementation utilizes iteration
+3) rightLength can be implemented with 1 line of code and no iteration
+Your implementation utilizes iteration

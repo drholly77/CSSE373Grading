@@ -8,49 +8,54 @@
 # You might need to make this file an executable
 #   To do that at a Bash command line type:  chmod u+x cloneAll.sh
 #
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-hueyee
-git clone https://github.com/rhit-csse373/csse373devenv202430-aidancmatthews
-git clone https://github.com/rhit-csse373/csse373devenv202430-AdityaSenthilvel
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-gizaw1
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-brunkocl
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-lowej2
-git clone https://github.com/rhit-csse373/csse373devenv202430-wynessgp
-git clone https://github.com/rhit-csse373/csse373devenv202430-kiana2021237
-git clone https://github.com/rhit-csse373/csse373devenv202430-bveal52
-git clone https://github.com/rhit-csse373/csse373devenv202430-17hsteward
-git clone https://github.com/rhit-csse373/csse373devenv202430-Xander-6085
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-doolitge
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-koenigjl
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-kirka
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-walshst1
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-mcmaholc
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-shirakrk
-git clone https://github.com/rhit-csse373/csse373devenv202430-ctf05
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-gaulldj
-git clone https://github.com/rhit-csse373/csse373devenv202430-cm090
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-heffnenw
-git clone https://github.com/rhit-csse373/csse373devenv202430-GMyoung
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-tekulvba
-git clone https://github.com/rhit-csse373/csse373devenv202430-satkosb
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-lydencj
-git clone https://github.com/rhit-csse373/csse373devenv202430-duvallar
-git clone https://github.com/rhit-csse373/csse373devenv202430-kezdyam
-git clone https://github.com/rhit-csse373/csse373devenv202430-camposa95
-git clone https://github.com/rhit-csse373/csse373devenv202430-natasa-zupanski
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-huy8
-git clone https://github.com/rhit-csse373/csse373devenv202430-mkacct
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-hallamcs
-git clone https://github.com/rhit-csse373/csse373devenv202430-brookskm
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-blomecj
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-shulernm
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-olabinmo
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-silkaijr
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-adlerbn
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-zhangn2
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-perryca
-git clone https://github.com/rhit-csse373/csse373devenv202430-jiangy10
-git clone https://github.com/rhit-csse373/csse373devenv202430-rhit-briscoma
-git clone https://github.com/rhit-csse373/csse373devenv202430-lesereli000
+https://github.com/rhit-csse373/csse373devenv202530-drholly77
+https://github.com/rhit-csse373/csse373devenv202530-rhit-mcclenms
+https://github.com/rhit-csse373/csse373devenv202530-rhit-moreholm
+https://github.com/rhit-csse373/csse373devenv202530-rhit-paauweek
+https://github.com/rhit-csse373/csse373devenv202530-apet2929
+https://github.com/rhit-csse373/csse373devenv202530-dkim7405
+https://github.com/rhit-csse373/csse373devenv202530-rhit-cheny44
+https://github.com/rhit-csse373/csse373devenv202530-rhit-edgingza
+https://github.com/rhit-csse373/csse373devenv202530-rhit-zhangn2
+https://github.com/rhit-csse373/csse373devenv202530-phunga003
+https://github.com/rhit-csse373/csse373devenv202530-AVesich
+https://github.com/rhit-csse373/csse373devenv202530-JJue888
+https://github.com/rhit-csse373/csse373devenv202530-220111
+https://github.com/rhit-csse373/csse373devenv202530-rhit-daughewd
+https://github.com/rhit-csse373/csse373devenv202530-Howardnt
+https://github.com/rhit-csse373/csse373devenv202530-rhit-weinrea
+https://github.com/rhit-csse373/csse373devenv202530-rhit-maroisem
+https://github.com/rhit-csse373/csse373devenv202530-rhit-leebt2
+https://github.com/rhit-csse373/csse373devenv202530-kleinsv
+https://github.com/rhit-csse373/csse373devenv202530-rhit-kimr1
+https://github.com/rhit-csse373/csse373devenv202530-jiangy10
+https://github.com/rhit-csse373/csse373devenv202530-rhit-lardnece
+https://github.com/rhit-csse373/csse373devenv202530-rhit-schuhwa
+https://github.com/rhit-csse373/csse373devenv202530-mcgeeja
+https://github.com/rhit-csse373/csse373devenv202530-rhit-steineig
+https://github.com/rhit-csse373/csse373devenv202530-rhit-stuhlmda
+https://github.com/rhit-csse373/csse373devenv202530-rhit-folayaod
+https://github.com/rhit-csse373/csse373devenv202530-rhit-lineromj
+https://github.com/rhit-csse373/csse373devenv202530-rhit-chungea
+https://github.com/rhit-csse373/csse373devenv202530-westonsey
+https://github.com/rhit-csse373/csse373devenv202530-ScanuNicco
+https://github.com/rhit-csse373/csse373devenv202530-aadev151
+https://github.com/rhit-csse373/csse373devenv202530-rhit-huttonep
+https://github.com/rhit-csse373/csse373devenv202530-rhit-smithjk2
+https://github.com/rhit-csse373/csse373devenv202530-rhit-mooretj
+https://github.com/rhit-csse373/csse373devenv202530-rhit-granadec
+https://github.com/rhit-csse373/csse373devenv202530-rhit-FANA
+https://github.com/rhit-csse373/csse373devenv202530-rhit-mackeycb
+https://github.com/rhit-csse373/csse373devenv202530-rhit-novojiac
+https://github.com/rhit-csse373/csse373devenv202530-rhit-kenny
+https://github.com/rhit-csse373/csse373devenv202530-rhit-castons
+https://github.com/rhit-csse373/csse373devenv202530-rhit-mendezm
+https://github.com/rhit-csse373/csse373devenv202530-csomosdm
+https://github.com/rhit-csse373/csse373devenv202530-rhit-meyerja
+https://github.com/rhit-csse373/csse373devenv202530-rhit-spiottdj
+https://github.com/rhit-csse373/csse373devenv202530-rhit-halseysh
+https://github.com/rhit-csse373/csse373devenv202530-rhit-mahaffmx
+
 
 echo "Done cloning"
 
